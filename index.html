@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vishal's Portfolio | Responsive Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/4009632f6f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Vishal Anton</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="section">
+      <div class="section__container">
+        
+        <div class="content">
+          <h1 class="subtitle">HELLO<strong>👋</strong></h1>
+          <h1 class="title">
+            I'm Vishal Anton<br />
+        </h1>
+          <h3 class="job">Data Engineer @Local Grown Salads</h3>
+          <p class="description">
+            <!-- Passionate and detail-oriented Data & Analytics professional with a strong commitment to transforming complex challenges into innovative solutions. I hold a Master's in Information Technology from UNC Charlotte and bring three years of hands-on experience in business operations and analytics. My expertise spans data visualization, cloud computing, and machine learning, with a proven track record of driving business growth through data-driven insights. I am actively seeking full-time opportunities where I can apply my analytical mindset and technical skills to create impactful solutions. -->
+            Accomplished Data Engineer/Analyst with expertise in SQL, ETL, and cloud-based data architectures using AWS, Azure, 
+and Snowflake. Proficient in data modeling, data warehousing, and process optimization, delivering measurable improvements in 
+data processing efficiency and cost management. AWS Certified Solutions Architect and Microsoft Certified Fabric Data Engineer, skilled in collaborating with cross-functional 
+teams to implement secure, high-performance data solutions. Demonstrated success in enhancing data quality, streamlining 
+workflows, and driving operational efficiency.  
+          </p>
+          <!-- <div class="action__btns">
+            <button class="Resume">Resume</button>
+          </div> -->
+        </div>
+        <div class="image">
+          <img src="vishal.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills__section">
+      <div class="skills__container">
+        <h2>Technical Skills</h2>
+
+        <!-- Row 1: Programming, Data & ML, Visualization -->
+        <div class="skills__row">
+          <!-- Programming Section -->
+          <div class="skill__box">
+            <h3>Programming</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><i class="fa-brands fa-python"></i> Python</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-java"></i> Java</span
+              >
+              <span class="skill__item"
+                ><i class="fa-solid fa-code"></i> SQL</span
+              >
+              <span class="skill__item"
+                ><i class="fa-solid fa-copyright"></i> C</span
+              >
+            </div>
+          </div>
+
+          <!-- Data & ML Section -->
+          <div class="skill__box">
+            <h3>Data & ML</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><img
+                  src="https://img.icons8.com/?size=25&id=xSkewUSqtErH&format=png&color=000000"
+                />
+                Pandas</span
+              >
+              <span class="skill__item"
+                ><img
+                  src="https://img.icons8.com/?size=25&id=aR9CXyMagKIS&format=png&color=000000"
+                  alt=""
+                  srcset=""
+                />
+                NumPy</span
+              >
+              <span class="skill__item">Matplotlib</span>
+              <span class="skill__item"
+                ><img
+                  src="https://img.icons8.com/?size=25&id=gTN9eaZkKLFI&format=png&color=000000"
+                />
+                Machine Learning</span
+              >
+              <span class="skill__item"
+                ><img
+                  src="https://img.icons8.com/?size=25&id=qGm5NPoTt8SR&format=png&color=000000"
+                  alt=""
+                  srcset=""
+                />NLP</span
+              >
+            </div>
+          </div>
+
+          <!-- Visualization Section -->
+          <div class="skill__box">
+            <h3>Visualization</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><img
+                  src="https://img.icons8.com/?size=25&id=qYfwpsRXEcpc&format=png&color=000000"
+                  alt=""
+                  srcset=""
+                />
+                Power BI</span
+              >
+              <span class="skill__item"
+                ><img
+                  src="https://img.icons8.com/?size=25&id=9Kvi1p1F0tUo&format=png&color=000000"
+                  alt=""
+                  srcset=""
+                />
+                Tableau</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: Databases, Cloud & Tools, Web Tech -->
+        <div class="skills__row">
+          <!-- Databases Section -->
+          <div class="skill__box">
+            <h3>Databases</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><i class="fa-solid fa-server"></i> MySQL</span
+              >
+              <span class="skill__item"
+                ><i class="fa-solid fa-database"></i> Presto</span
+              >
+			  <span class="skill__item"
+                ><i class="fa-solid fa-database"></i> PostgreSQL</span
+              >
+              <span class="skill__item"
+                ><i class="fa-regular fa-snowflake"></i> Snowflake</span
+              >
+			  <span class="skill__item"
+                ><i class="fa-solid fa-database"></i> Microsoft SQL Server</span
+              >
+			  <span class="skill__item"
+                ><i class="fa-solid fa-database"></i> MongoDB</span
+              >
+            </div>
+          </div>
+
+          <!-- Cloud & Tools Section -->
+          <div class="skill__box">
+            <h3>Cloud & Tools</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><i class="fa-brands fa-aws"></i> AWS S3</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-aws"></i> Lambda</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-aws"></i> Glue</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-aws"></i> EMR</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-aws"></i> DMS</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-aws"></i> Redshift</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-aws"></i> Athena</span
+              >
+              <span class="skill__item"
+                ><i class="fa-solid fa-file-excel"></i> Excel</span
+              >
+              <span class="skill__item"
+                ><i class="fa-solid fa-file-azure"></i> Azure</span
+              >			  
+              <span class="skill__item">Wireshark</span>
+              <span class="skill__item">Airflow</span>
+			  <span class="skill__item">SAS</span>
+			  <span class="skill__item">Dialogflow</span>
+            </div>
+          </div>
+
+          <!-- Web Tech Section -->
+          <div class="skill__box">
+            <h3>Web Technologies</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><i class="fa-brands fa-react"></i> React</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-html5"></i> HTML5</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-css3-alt"></i> CSS</span
+              >
+              <span class="skill__item"
+                ><i class="fa-brands fa-node"></i> Node.js</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+      <h2>Experience</h2>
+
+      <div class="timeline">
+        <!-- First Role -->
+        <div class="timeline-item">
+          <div class="icon">
+            <img style="border-radius: 0; width: 6em;" src="lgs.jpg" alt="University Of North Carolina at Chapel Hill" />
+          </div>
+          <div class="timeline-content">
+            <h3>Data Engineer</h3>
+            <h4>Local Grown Salads</h4>
+            <span class="date">Feb 2025 - Present</span>
+            <p>
+ 			  Currently leading data engineering efforts to support vertical farm operations by building and optimizing ETL pipelines across AWS services. 
+			  Developed real-time data synchronization systems using PostgreSQL, Airflow, and Python to integrate farm equipment, packaging systems, and ERP workflows. 
+			  Collaborate with cross-functional teams to automate data flows, improve system performance by 30%, and deliver analytics-ready datasets that 
+			  enhance operational decision-making across multiple international farm locations. 
+            </p>
+            <ul class="skills">
+              <li class="skill-box">Data Engineering</li>
+              <li class="skill-box">Data Analysis</li>
+            </ul>
+          </div>
+        </div>
+
+
+      <div class="timeline">
+        <!-- Second Role -->
+        <div class="timeline-item">
+          <div class="icon">
+            <img style="border-radius: 0; width: 6em;" src="nielsen.jpg" alt="Avanti Group" />
+          </div>
+          <div style="margin-top: -40px;" class="timeline-content">
+            <h3>Data Engineer II</h3>
+            <h4>Nielsen</h4>
+            <span class="date">May 2019 - June 2023</span>
+            <p>
+ 			  As a Data Engineer at Nielsen, I designed and implemented scalable ETL pipelines to process over 120M daily ad impressions across multiple media channels. 
+			  Optimized data workflows using Apache Airflow and PySpark, resulting in a 50% reduction in processing time and a 37% improvement in data accuracy. 
+			  Collaborated with cross-functional teams to transform business requirements into automated data solutions, contributed to the migration of legacy systems 
+			  to AWS Redshift, and developed reporting-ready datasets that supported $50M+ in client ad spend decisions...
+            </p>
+            <ul class="skills">
+              <li class="skill-box">Data Engineering</li>
+              <li class="skill-box">Media and Ad Intelligence Analytics</li>
+              <li class="skill-box">Data Visualization</li>
+              <li class="skill-box">Application Support</li>
+              <li class="skill-box">Cloud Computing</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="timeline-item">
+          <div class="icon">
+            <img style="border-radius: 0; width: 6em;" src="sjce.png" alt="VIT" />
+          </div>
+          <div class="timeline-content">
+            <h3>Event Coordinator</h3>
+            <h4>St Joseph's College of Engineering</h4>
+            <span class="date">Oct 2018 - Mar 2019 </span>
+            <p>
+              As an Event Coordinator at St Joseph's College of Engineering, I
+              successfully managed and operated large-scale technical events,
+              ensuring smooth execution from planning to conclusion. My role
+              involved coordinating with multiple teams, overseeing logistics,
+              and handling event scheduling. I also worked on promoting the
+              events and managing on-site operations to ensure all activities
+              ran efficiently, contributing to the overall success of the
+              university’s technical fest.....
+            </p>
+            <ul class="skills">
+              <li class="skill-box">Team Management</li>
+              <li class="skill-box">Collaboration</li>
+              <li class="skill-box">Event Planning and Coordination</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-box">
+          <a href="project1.html">
+            <img src="project1.jpg" alt="Project 1" />
+            <h3>Live Speech Potraits</h3>
+          </a>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-box">
+          <a href="project2.html">
+            <img src="project2.jpg" alt="Project 2" />
+            <h3>AI-Driven-Fraud-Detection-for-Digital-Payments</h3>
+          </a>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-box">
+          <a href="project3.html">
+            <img src="project3.jpg" alt="Project 3" />
+            <h3>Nike-Sales-Insights-Using-Tableau</h3>
+          </a>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-box">
+          <a href="project4.html">
+            <img src="project4.jpg" alt="Project 4" />
+            <h3>End-to-End-Real-Time-Healthcare-Data-Pipeline-Using-Databricks</h3>
+          </a>
+        </div>
+        <!-- Project 5 -->
+        <div class="project-box">
+          <a href="project5.html">
+            <img src="project5.jpg" alt="Project 5" />
+            <h3>Price-action-charts-for-popular-stocks</h3>
+          </a>
+        </div>
+        <!-- Project 6 -->
+        <div class="project-box">
+          <a href="project6.html">
+            <img src="project6.jpg" alt="Project 6" />
+            <h3>Flight-Data-Workflow-Automation-with-AWS-Services</h3>
+          </a>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-box">
+          <a href="project7.html">
+            <img src="project7.jpg" alt="Project 7" />
+            <h3>Costco Sales Analysis</h3>
+          </a>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="project-box">
+          <a href="project8.html">
+            <img src="project8.jpg" alt="Project 8" />
+            <h3>AI Driven Car Price Forecasting</h3>
+          </a>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="project-box">
+          <a href="project9.html">
+            <img src="project9.jpg" alt="Project 9" />
+            <h3>Automating Loan Approval with SAS</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="projects-section">
+      <h2>Certifications</h2>
+      <div class="projects-container">
+        <!-- Certifications 1 -->
+        <div class="project-box">
+          <a target="_blank" href="https://www.credly.com/badges/856517c4-9f62-44e9-8110-2531cedd63d5/email">
+            <img src="certification1.jpg" alt="certification 1" />
+            <h3> AWS Certified Solutions Architect – Associate </h3>
+          </a>
+        </div>
+        <!-- Certifications 2 -->
+        <div class="project-box">
+          <a target="_blank" href="https://learn.microsoft.com/api/credentials/share/en-gb/VISHALANTON-9802/C9F42410528C0D78?sharingId=983E493A1402083A">
+            <img src="certification2.jpg" alt="certification 2" />
+            <h3>Microsoft Certified: Fabric Data Engineer Associate</h3>
+          </a>
+        </div>
+        <!-- Certifications 3 -->
+        <div class="project-box">
+          <a target="_blank" href="https://www.datacamp.com/certificate/SQA0017003426134">
+            <img src="certification3.jpg" alt="certification3" />
+            <h3>SQL Associate certificate</h3>
+          </a>
+        </div>
+        <!-- Certifications 4 -->
+        <div class="project-box">
+          <a target="_blank" href="https://www.credly.com/badges/a6f975b9-d3c8-4b98-a7eb-1c6d93832c20">
+            <img src="certification4.jpg" alt="certification4" />
+            <h3>AWS ACADEMY DATA ENGINEERING</h3>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="education" class="education-section">
+      <div class="education-container">
+        <h2>Education</h2>
+
+        <div class="education-item">
+          <h3>Master of Science</h3>
+          <h4><strong>Computer Science</strong></h4>
+          <h4>
+            <strong>University of North Carolina at Charlotte</strong>
+            <p><em>August 2023 - December 2024</em></p>
+          </h4>
+          <h4><strong>Coursework:</strong></h4>
+          <div class="coursework-container">
+            <div class="coursework-item">Visual Analytics</div>
+            <div class="coursework-item">Database Systems</div>
+            <div class="coursework-item">
+              Knowledge Discovery in Databases
+            </div>
+            <div class="coursework-item">Machine Learning</div>
+            <div class="coursework-item">
+              Software System Design and Implementation
+            </div>
+            <div class="coursework-item">Big Data Analytics</div>
+          </div>
+          <p><strong>GPA:</strong> 4.0/4.0</p>
+        </div>
+
+        <div class="education-item">
+          <h3>
+            Bachelor of Technology
+          </h3>
+          <h4>Information Technology</h4>
+          <h4>
+            <strong>St Joseph's College of Engineering</strong>
+            <p><em>July 2015 - April 2019</em></p>
+          </h4>
+
+          <h4><strong>Coursework:</strong></h4>
+          <div class="coursework-container">
+            <div class="coursework-item">Java</div>
+            <div class="coursework-item">Database Design and Management Systems</div>
+            <div class="coursework-item">Data Mining</div>
+            <div class="coursework-item">Operating Systems</div>
+            <div class="coursework-item">Software Architecture</div>
+            <div class="coursework-item">Compiler Design</div>
+          </div>
+          <p><strong>GPA:</strong> 3.3/4.0</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="background-color: var(--extra-light); padding: 2rem; border-radius: 10px; text-align: center; margin: 0px auto 70px auto; width: 80%; max-width: 600px;">
+      <h2>Contact Me</h2>
+      <div class="contact-buttons">
+        <a href="https://www.linkedin.com/in/vishala20/" target="_blank" class="contact-button">LinkedIn Profile</a>
+        <a href="mailto:vanton.tech@gmail.com" class="contact-button">Email Me</a>
+      </div>
+    </section>
+    
+  </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Speech Potraits</title>
+    <style>
+        :root {
+            --extra-light: #f8f9fa; /* Adjust this color to your preference */
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --primary: #a19e98;
+            --secondary: #738ea7;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--extra-light);
+            color: var(--dark);
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: var(--primary);
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 100px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            margin-left: 20px;
+            list-style-type: none; /* Remove default bullets */
+            padding: 0; /* Remove padding */
+            display: block; /* Ensure items stack vertically */
+        }
+
+        .point {
+            position: relative;
+            padding-left: 20px; /* Space for the bullet */
+            margin-bottom: 10px; /* Space between points */
+        }
+
+        .point::before {
+            content: "■"; /* Square bullet */
+            position: absolute;
+            left: 0; /* Position bullet on the left */
+            color: var(--primary); /* Color of the bullet */
+            font-size: 16px; /* Size of the bullet */
+        }
+
+        .github-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .skill {
+            background-color: var(--light);
+            border: 1px solid var(--primary);
+            border-radius: 4px;
+            padding: 10px 15px;
+            margin: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Live Speech Potraits</h1>
+        <div class="github-link">
+            <img src="https://img.icons8.com/?size=25&id=3tC9EQumUAuq&format=png&color=000000" alt="" srcset=""><a href="https://github.com/VishalAnton20/Livespeechportraits/tree/main" target="_blank">GitHub Repository</a>
+        </div>
+
+        <h2>Skills Gained</h2>
+        <div class="skills">
+            <div class="skill">Data Analysis</div>
+            <div class="skill">Data Preprocessing</div>
+            <div class="skill">PyTorch or TensorFlow</div>
+            <div class="skill">Deep Learning</div>
+            <div class="skill">CUDA / GPU Acceleration</div>
+            <div class="skill">Real-time Inference Optimization</div>
+        </div>
+
+        <img src="project1.jpg" alt="Project Image" style="width: 100%; height: auto;">
+
+        <div class="dataset">
+            <h2>Dataset Overview</h2>
+            <p>This project analyzes data from multiple sources, consolidated into five CSV files:</p>
+            <ul>
+                <li class="point"><strong>Video Frames Dataset:</strong> Contains high-resolution frames extracted from short video recordings of individual speakers, capturing facial landmarks and subtle expressions.</li>
+                <li class="point"><strong>Audio Clips Dataset:</strong> Includes synchronized clean speech audio segments used for driving facial movements.</li>
+                <li class="point"><strong>Pretrained Models & Checkpoints:</strong> Provides model weights for facial alignment, feature extraction, and audio-to-visual mappings.</li>
+                <li class="point"><strong>Landmarks Annotation Files:</strong> JSON files marking key facial feature points across frames to assist in precise face modeling.</li>
+                <li class="point"><strong>Background/Context Videos:</strong> Supplemental clips used to enhance photorealism through style conditioning techniques.</li>
+            </ul>
+        </div>
+
+        <div class="projectDescription">
+            <h2>Description</h2>
+            <ul>
+                <li class="point">Built an innovative real-time audio-driven animation pipeline capable of generating personalized, photorealistic talking-heads from a single reference image and audio signal.</li>
+                <li class="point">Developed a multistage model architecture, leveraging pretrained deep learning networks for facial alignment, dynamic feature extraction, and frame-by-frame video synthesis.</li>
+                <li class="point">Integrated audio-to-landmarks prediction models that translate speech signals into accurate facial dynamics, preserving speaker-specific expressions and identity.</li>
+                <li class="point">Achieved high-fidelity facial animation with minimal lag (~80ms delay), enabling realistic live communication experiences.</li>
+                <li class="point">Fine-tuned and optimized Delta-based Audio-to-Video Mapping Models for smoother and more natural lip synchronization.</li>
+                <li class="point">Designed and trained custom GAN architectures to enhance photorealistic textures, reducing artifacts in generated outputs.</li>
+                <li class="point">Conducted experiments to evaluate frame accuracy, lip-sync precision, and perceptual realism, outperforming baseline methods.</li>
+                <li class="point">Delivered a complete system capable of handling real-world noisy inputs while maintaining the realism of synthesized avatars.</li>
+                <li class="point">Gained deep expertise in audio-visual synchronization, facial dynamics modeling, and real-time deep learning inference pipelines.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
